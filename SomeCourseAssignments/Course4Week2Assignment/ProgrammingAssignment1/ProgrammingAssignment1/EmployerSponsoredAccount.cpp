@@ -8,8 +8,9 @@
  * Constructor
  * @param Deposit initial deposit
 */
-
-// provide constructor implementation here
+EmployerSponsoredAccount::EmployerSponsoredAccount(float Deposit) : MutualFund{ Deposit }
+{
+}
 
 /**
  * Adds money to the account, adding employer match
@@ -17,8 +18,7 @@
 */
 void EmployerSponsoredAccount::AddMoney(float Amount)
 {
-	// delete code below and replace with your code
-	throw 404;
+	MutualFund::AddMoney(2 * Amount);
 }
 
 /**

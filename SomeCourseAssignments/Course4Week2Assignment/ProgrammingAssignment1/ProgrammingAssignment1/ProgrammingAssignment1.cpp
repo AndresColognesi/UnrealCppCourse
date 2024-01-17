@@ -29,8 +29,6 @@ int main()
         // extract test case number from string
         GetInputValueFromString(Input);
 
-        // remove the /* below
-        /*
         MutualFund MFAccount{ 100 };
         EmployerSponsoredAccount ESAccount{ 100 };
 
@@ -150,9 +148,6 @@ int main()
             }
             break;
         }
-
-        */
-        // remove the */ above
 
         std::cin >> Input;
     }

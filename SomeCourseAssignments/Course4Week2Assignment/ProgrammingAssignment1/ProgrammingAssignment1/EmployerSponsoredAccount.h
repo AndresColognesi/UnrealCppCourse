@@ -19,12 +19,7 @@ public:
      * Constructor
      * @param Deposit initial deposit
     */
-
-    // remove the /* below
-    /*
     EmployerSponsoredAccount(float Deposit);
-    */
-    // remove the */ above
 
     /**
      * Adds money to the account, adding employer match 

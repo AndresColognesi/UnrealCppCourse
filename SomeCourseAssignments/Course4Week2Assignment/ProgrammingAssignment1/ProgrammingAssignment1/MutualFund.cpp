@@ -9,7 +9,9 @@
   * @param Deposit initial deposit
  */
 
-// provide constructor implementation here
+MutualFund::MutualFund(float Deposit) : InvestmentAccount{ Deposit }
+{
+}
 
 /**
  * Adds money to the account, deducting a
@@ -18,8 +20,7 @@
 */
 void MutualFund::AddMoney(float Amount)
 {
-	// delete code below and replace with your code
-	throw 404;
+	InvestmentAccount::AddMoney(Amount * (1 - ServiceChargePercent));
 }
 
 /**
@@ -27,8 +28,7 @@ void MutualFund::AddMoney(float Amount)
 */
 void MutualFund::UpdateBalance()
 {
-	// delete code below and replace with your code
-	throw 404;
+	InvestmentAccount::SetBalance(InvestmentAccount::GetBalance() * 1.06f);
 }
 
 /**

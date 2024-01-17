@@ -22,12 +22,7 @@ public:
      * Constructor
      * @param Deposit initial deposit
     */
-
-    // remove the /* below
-    /*
     MutualFund(float Deposit);
-    */
-    // remove the */ above
 
     /**
      * Adds money to the account, deducting a
