@@ -1,8 +1,0 @@
-{
-	"SourceFiles": [
-		"C:\\NoSynch\\UnrealCppCourse\\Course4\\Course4Week3Ex10_RefectorToEvent\\FishShooter\\Source\\FishShooter\\FishShooter.Build.cs",
-		"C:\\NoSynch\\UnrealCppCourse\\Course4\\Course4Week3Ex10_RefectorToEvent\\FishShooter\\Source\\FishShooter.Target.cs",
-		"C:\\NoSynch\\UnrealCppCourse\\Course4\\Course4Week3Ex10_RefectorToEvent\\FishShooter\\Source\\FishShooterEditor.Target.cs"
-	],
-	"EngineVersion": "5.3.2"
-}
