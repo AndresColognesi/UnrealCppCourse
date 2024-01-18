@@ -1,0 +1,8 @@
+C:\Users\timch\Documents\Unreal Projects\FishShooter\Intermediate\Build\Win64\UE4Editor\Development\FishShooter\Definitions.FishShooter.h
+C:\Users\timch\Documents\Unreal Projects\FishShooter\Source\FishShooter\ConfigurationDataActor.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/DataTable.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\DataTableUtils.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DataTable.generated.h
+C:\Users\timch\Documents\Unreal Projects\FishShooter\Source\FishShooter\ConfigurationDataStruct.h
+C:\Users\timch\Documents\Unreal Projects\FishShooter\Intermediate\Build\Win64\UE4Editor\Inc\FishShooter\ConfigurationDataStruct.generated.h
+C:\Users\timch\Documents\Unreal Projects\FishShooter\Intermediate\Build\Win64\UE4Editor\Inc\FishShooter\ConfigurationDataActor.generated.h

@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\timch\\Documents\\Unreal Projects\\FishShooter\\Source\\FishShooter\\FishShooter.Build.cs",
+		"C:\\Users\\timch\\Documents\\Unreal Projects\\FishShooter\\Source\\FishShooter.Target.cs",
+		"C:\\Users\\timch\\Documents\\Unreal Projects\\FishShooter\\Source\\FishShooterEditor.Target.cs"
+	],
+	"EngineVersion": "4.26.2"
+}
