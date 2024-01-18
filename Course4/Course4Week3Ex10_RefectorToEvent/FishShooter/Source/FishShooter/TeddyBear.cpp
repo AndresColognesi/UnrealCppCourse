@@ -6,7 +6,7 @@
 #include "ScreenConstants.h"
 #include "FishPawn.h"
 #include "Kismet/GameplayStatics.h"
-#include "GameHud.h"
+#include "EventManagerActor.h"
 
 /**
  * Sets default values
@@ -54,6 +54,17 @@ void ATeddyBear::BeginPlay()
 	{
 		ConfigurationData = (AConfigurationDataActor*)ConfigurationDataActors[0];
 	}
+
+	// add to event manager
+	TArray<AActor*> TaggedActors;
+	UGameplayStatics::GetAllActorsWithTag(
+		GetWorld(), "EventManager", TaggedActors);
+	if (TaggedActors.Num() > 0)
+	{
+		AEventManagerActor* EventManager = Cast<AEventManagerActor>(
+			TaggedActors[0]);
+		EventManager->AddInvoker(this);
+	}
 }
 
 /**
@@ -99,15 +110,37 @@ void ATeddyBear::OnOverlapBegin(class UPrimitiveComponent* OverlappedComp,
 				UGameplayStatics::PlaySound2D(this,
 					AudioCue);
 
-				// get reference to HUD and add kill
-				AGameHUD* Hud = UGameplayStatics::GetPlayerController(this, 0)->GetHUD<AGameHUD>();
-				if (Hud != nullptr)
-				{
-					Hud->AddKill();
-				}
-
+				// broadcast event and destroy teddy bear
+				KillAddedEvent.Broadcast();
 				Destroy();
 			}
 		}
+	}
+}
+
+/**
+ * Gets the kill added event for this teddy bear
+ * @return kill added event
+*/
+FKillAddedEvent& ATeddyBear::GetKillAddedEvent()
+{
+	return KillAddedEvent;
+}
+
+/**
+ * Called when actor is being removed from level
+ * @param EndPlayReason why the actor is being removed
+*/
+void ATeddyBear::EndPlay(const EEndPlayReason::Type EndPlayReason)
+{
+	// remove from event manager
+	TArray<AActor*> TaggedActors;
+	UGameplayStatics::GetAllActorsWithTag(
+		GetWorld(), "EventManager", TaggedActors);
+	if (TaggedActors.Num() > 0)
+	{
+		AEventManagerActor* EventManager = Cast<AEventManagerActor>(
+			TaggedActors[0]);
+		EventManager->RemoveInvoker(this);
 	}
 }

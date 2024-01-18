@@ -3,6 +3,7 @@
 #pragma once
 
 #include "ConfigurationDataActor.h"
+#include "DelegateDeclarations.h"
 
 #include "Sound/SoundCue.h"
 #include "CoreMinimal.h"
@@ -25,6 +26,9 @@ private:
 	// saved for efficiency
 	AConfigurationDataActor* ConfigurationData;
 	
+	// event support
+	FKillAddedEvent KillAddedEvent;
+
 public:	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite,
 		Category = "Sound")
@@ -56,4 +60,16 @@ public:
 			class AActor* OtherActor, class UPrimitiveComponent* OtherComp,
 			int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 
+	/**
+	 * Gets the kill added event for this teddy bear
+	 * @return kill added event
+	*/
+	FKillAddedEvent& GetKillAddedEvent();
+
+	/**
+	 * Called when actor is being removed from level
+	 * @param EndPlayReason why the actor is being removed
+	*/
+	UFUNCTION()
+		virtual void EndPlay(const EEndPlayReason::Type EndPlayReason) override;
 };
