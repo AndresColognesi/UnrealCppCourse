@@ -1,2 +1,0 @@
-C:\Users\timch\Documents\Unreal Projects\FishShooter\Intermediate\Build\Win64\UE4Editor\Development\FishShooter\Definitions.FishShooter.h
-C:\Users\timch\Documents\Unreal Projects\FishShooter\Source\FishShooter\ScreenConstants.h

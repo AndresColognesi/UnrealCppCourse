@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "FishShooter",
-			"Path": "C:\\Users\\timch\\Documents\\Unreal Projects\\FishShooter\\Source\\FishShooter.Target.cs",
+			"Path": "..\\Source\\FishShooter.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "FishShooterEditor",
-			"Path": "C:\\Users\\timch\\Documents\\Unreal Projects\\FishShooter\\Source\\FishShooterEditor.Target.cs",
+			"Path": "..\\Source\\FishShooterEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]
