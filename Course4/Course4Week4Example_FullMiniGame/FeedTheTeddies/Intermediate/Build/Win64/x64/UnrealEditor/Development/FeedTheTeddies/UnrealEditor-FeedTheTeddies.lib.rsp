@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-FeedTheTeddies.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\NoSynch\UnrealCppCourse\Course4\Course4Week4Example_FullMiniGame\FeedTheTeddies\Intermediate\Build\Win64\x64\FeedTheTeddiesEditor\Development\Engine\SharedPCH.Engine.Cpp17.InclOrderUnreal5_0.h.obj"
+"C:\NoSynch\UnrealCppCourse\Course4\Course4Week4Example_FullMiniGame\FeedTheTeddies\Intermediate\Build\Win64\x64\UnrealEditor\Development\FeedTheTeddies\Module.FeedTheTeddies.cpp.obj"
+"C:\NoSynch\UnrealCppCourse\Course4\Course4Week4Example_FullMiniGame\FeedTheTeddies\Intermediate\Build\Win64\x64\UnrealEditor\Development\FeedTheTeddies\Default.rc2.res"
+/OUT:"C:\NoSynch\UnrealCppCourse\Course4\Course4Week4Example_FullMiniGame\FeedTheTeddies\Intermediate\Build\Win64\x64\UnrealEditor\Development\FeedTheTeddies\UnrealEditor-FeedTheTeddies.lib"

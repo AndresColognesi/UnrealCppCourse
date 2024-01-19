@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\NoSynch\\UnrealCppCourse\\Course4\\Course4Week4Example_FullMiniGame\\FeedTheTeddies\\Source\\FeedTheTeddies\\FeedTheTeddies.Build.cs",
+		"C:\\NoSynch\\UnrealCppCourse\\Course4\\Course4Week4Example_FullMiniGame\\FeedTheTeddies\\Source\\FeedTheTeddies.Target.cs",
+		"C:\\NoSynch\\UnrealCppCourse\\Course4\\Course4Week4Example_FullMiniGame\\FeedTheTeddies\\Source\\FeedTheTeddiesEditor.Target.cs"
+	],
+	"EngineVersion": "5.3.2"
+}

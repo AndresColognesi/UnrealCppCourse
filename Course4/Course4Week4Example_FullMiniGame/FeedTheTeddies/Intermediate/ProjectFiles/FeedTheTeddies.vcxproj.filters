@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\FeedTheTeddies.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FeedTheTeddies.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\FeedTheTeddiesEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\ConfigurationData.csv" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGameplayTags.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\FeedTheTeddies">
+      <UniqueIdentifier>{2D46576B-8B96-3EE8-948F-8BC9BBBBE4D9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FeedTheTeddies\BurgerPawn.cpp">
+      <Filter>Source\FeedTheTeddies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FeedTheTeddies\BurgerPawn.h">
+      <Filter>Source\FeedTheTeddies</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FeedTheTeddies\BurgerPlayerController.cpp">
+      <Filter>Source\FeedTheTeddies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FeedTheTeddies\BurgerPlayerController.h">
+      <Filter>Source\FeedTheTeddies</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FeedTheTeddies\ConfigurationDataActor.cpp">
+      <Filter>Source\FeedTheTeddies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FeedTheTeddies\ConfigurationDataActor.h">
+      <Filter>Source\FeedTheTeddies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FeedTheTeddies\ConfigurationDataStruct.h">
+      <Filter>Source\FeedTheTeddies</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FeedTheTeddies\DelegateDeclarations.cpp">
+      <Filter>Source\FeedTheTeddies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FeedTheTeddies\DelegateDeclarations.h">
+      <Filter>Source\FeedTheTeddies</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FeedTheTeddies\EventManagerActor.cpp">
+      <Filter>Source\FeedTheTeddies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FeedTheTeddies\EventManagerActor.h">
+      <Filter>Source\FeedTheTeddies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FeedTheTeddies\EventName.h">
+      <Filter>Source\FeedTheTeddies</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\FeedTheTeddies\FeedTheTeddies.Build.cs">
+      <Filter>Source\FeedTheTeddies</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\FeedTheTeddies\FeedTheTeddies.cpp">
+      <Filter>Source\FeedTheTeddies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FeedTheTeddies\FeedTheTeddies.h">
+      <Filter>Source\FeedTheTeddies</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FeedTheTeddies\FeedTheTeddiesGameModeBase.cpp">
+      <Filter>Source\FeedTheTeddies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FeedTheTeddies\FeedTheTeddiesGameModeBase.h">
+      <Filter>Source\FeedTheTeddies</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FeedTheTeddies\FeedTheTeddiesSaveGame.cpp">
+      <Filter>Source\FeedTheTeddies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FeedTheTeddies\FeedTheTeddiesSaveGame.h">
+      <Filter>Source\FeedTheTeddies</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FeedTheTeddies\FriesActor.cpp">
+      <Filter>Source\FeedTheTeddies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FeedTheTeddies\FriesActor.h">
+      <Filter>Source\FeedTheTeddies</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FeedTheTeddies\HomingActorComponent.cpp">
+      <Filter>Source\FeedTheTeddies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FeedTheTeddies\HomingActorComponent.h">
+      <Filter>Source\FeedTheTeddies</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FeedTheTeddies\HomingActorInterface.cpp">
+      <Filter>Source\FeedTheTeddies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FeedTheTeddies\HomingActorInterface.h">
+      <Filter>Source\FeedTheTeddies</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FeedTheTeddies\MainMenuActor.cpp">
+      <Filter>Source\FeedTheTeddies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FeedTheTeddies\MainMenuActor.h">
+      <Filter>Source\FeedTheTeddies</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FeedTheTeddies\ScreenConstants.cpp">
+      <Filter>Source\FeedTheTeddies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FeedTheTeddies\ScreenConstants.h">
+      <Filter>Source\FeedTheTeddies</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FeedTheTeddies\TeddyBearActor.cpp">
+      <Filter>Source\FeedTheTeddies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FeedTheTeddies\TeddyBearActor.h">
+      <Filter>Source\FeedTheTeddies</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FeedTheTeddies\TeddyBearProjectileActor.cpp">
+      <Filter>Source\FeedTheTeddies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FeedTheTeddies\TeddyBearProjectileActor.h">
+      <Filter>Source\FeedTheTeddies</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FeedTheTeddies\TeddyBearSpawnerActor.cpp">
+      <Filter>Source\FeedTheTeddies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FeedTheTeddies\TeddyBearSpawnerActor.h">
+      <Filter>Source\FeedTheTeddies</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,40 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.FeedTheTeddies.cpp.obj": [
+			"BurgerPawn.gen.cpp.obj",
+			"BurgerPlayerController.gen.cpp.obj",
+			"ConfigurationDataActor.gen.cpp.obj",
+			"ConfigurationDataStruct.gen.cpp.obj",
+			"DelegateDeclarations.gen.cpp.obj",
+			"EventManagerActor.gen.cpp.obj",
+			"EventName.gen.cpp.obj",
+			"FeedTheTeddies.init.gen.cpp.obj",
+			"FeedTheTeddiesGameModeBase.gen.cpp.obj",
+			"FeedTheTeddiesSaveGame.gen.cpp.obj",
+			"FriesActor.gen.cpp.obj",
+			"HomingActorComponent.gen.cpp.obj",
+			"HomingActorInterface.gen.cpp.obj",
+			"MainMenuActor.gen.cpp.obj",
+			"TeddyBearActor.gen.cpp.obj",
+			"TeddyBearProjectileActor.gen.cpp.obj",
+			"TeddyBearSpawnerActor.gen.cpp.obj",
+			"BurgerPawn.cpp.obj",
+			"BurgerPlayerController.cpp.obj",
+			"ConfigurationDataActor.cpp.obj",
+			"DelegateDeclarations.cpp.obj",
+			"EventManagerActor.cpp.obj",
+			"FeedTheTeddies.cpp.obj",
+			"FeedTheTeddiesGameModeBase.cpp.obj",
+			"FeedTheTeddiesSaveGame.cpp.obj",
+			"FriesActor.cpp.obj",
+			"HomingActorComponent.cpp.obj",
+			"HomingActorInterface.cpp.obj",
+			"MainMenuActor.cpp.obj",
+			"ScreenConstants.cpp.obj",
+			"TeddyBearActor.cpp.obj",
+			"TeddyBearProjectileActor.cpp.obj",
+			"TeddyBearSpawnerActor.cpp.obj"
+		]
+	}
+}

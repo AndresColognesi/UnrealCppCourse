@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "FeedTheTeddies",
+			"Path": "..\\Source\\FeedTheTeddies.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "FeedTheTeddiesEditor",
+			"Path": "..\\Source\\FeedTheTeddiesEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
