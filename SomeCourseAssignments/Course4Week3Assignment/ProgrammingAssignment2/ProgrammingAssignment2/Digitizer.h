@@ -3,6 +3,7 @@
 #pragma once
 
 #include <unordered_map>
+#include <string>
 
 /**
  * Converts words to digits
@@ -11,6 +12,7 @@ class Digitizer
 {
 private:
 	// declare your map variable here
+	std::unordered_map<std::string, int> WordToDigitMap{};
 
 public:
 	/**

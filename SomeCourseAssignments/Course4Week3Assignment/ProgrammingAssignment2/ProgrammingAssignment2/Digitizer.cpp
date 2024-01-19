@@ -10,7 +10,16 @@
 Digitizer::Digitizer()
 {
 	// populate your map here
-
+	WordToDigitMap["ZERO"] = 0;
+	WordToDigitMap["ONE"] = 1;
+	WordToDigitMap["TWO"] = 2;
+	WordToDigitMap["THREE"] = 3;
+	WordToDigitMap["FOUR"] = 4;
+	WordToDigitMap["FIVE"] = 5;
+	WordToDigitMap["SIX"] = 6;
+	WordToDigitMap["SEVEN"] = 7;
+	WordToDigitMap["EIGHT"] = 8;
+	WordToDigitMap["NINE"] = 9;
 }
 
 /**
@@ -31,5 +40,20 @@ int Digitizer::ConvertWordToDigit(std::string Word)
 
 	// do the conversion
 	// replace the code below with your code
-	return -1;
+
+
+	// Converting input to uppercase:
+	for (int i = 0; i < Word.size(); i++)
+	{
+		Word[i] = std::toupper(Word[i]);
+	}
+	// Check if word is a valid map entry:
+	if (WordToDigitMap.count(Word) == 1)
+	{
+		return WordToDigitMap[Word];
+	}
+	else
+	{
+		return -1;
+	}
 }
