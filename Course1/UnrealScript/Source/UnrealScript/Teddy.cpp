@@ -16,7 +16,7 @@ void ATeddy::BeginPlay()
 {
 	Super::BeginPlay();
 
-	UE_LOG(LogTemp, Warning, TEXT("I'm Teddy!"));
+	UE_LOG(LogTemp, Warning, TEXT("I'm Teddy! My age is %d"), _age->GetValue());
 
 	// get the static mesh components for the blueprint
 	TArray<UStaticMeshComponent*> StaticMeshComponents;
